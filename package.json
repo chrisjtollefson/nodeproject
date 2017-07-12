@@ -1,0 +1,26 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "description": "created following along with https://stackskills.com/courses/node-js-from-zero-to-web-apps/lectures/",
+  "main": "app.js",
+  "author": "Christopher Tollefson",
+  "dependencies": {
+    "async": "^0.2.8",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30",
+    "socket.io": "^0.9.14"
+  },
+  "scripts": {
+    "start": "gulp serve"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.5",
+    "wiredep": "^4.0.0"
+  },
+  "license": "ISC"
+}
